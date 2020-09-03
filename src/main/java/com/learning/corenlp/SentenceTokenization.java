@@ -1,3 +1,5 @@
+package com.learning.corenlp;
+
 import com.learning.corenlp.Pipeline;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.CoreDocument;
