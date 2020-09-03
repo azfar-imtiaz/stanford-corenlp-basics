@@ -23,7 +23,7 @@ public class Pipeline {
         properties.setProperty("annotators", propertiesName);
 
         if (stanfordCoreNLP == null)
-            stanfordCoreNLP = new StanfordCoreNLP();
+            stanfordCoreNLP = new StanfordCoreNLP(properties);
 
         return stanfordCoreNLP;
     }

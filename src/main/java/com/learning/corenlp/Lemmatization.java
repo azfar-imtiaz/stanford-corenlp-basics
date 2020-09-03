@@ -27,7 +27,7 @@ public class Lemmatization {
             System.out.println(sent.toString());
             List<CoreLabel> words = sent.tokens();
             // NOTE: This function is only available in the CoreSentence object. If we don't do sentence tokenization,
-            // then POS tags will need to be extracted in a different way - look below
+            // then lemmas will need to be extracted in a different way - look below
             List<String> lemmas = sent.lemmas();
             for (int i = 0; i < lemmas.size(); i++) {
                 CoreLabel word = words.get(i);
